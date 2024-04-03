@@ -1,0 +1,58 @@
+:root{
+  background-color: #FBFADA;
+}
+.border-holder{
+  display: flex;
+  flex-direction: column;
+}
+.border {
+    border: 5px solid #ADBC9F;
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
+    height: auto;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    color: #436850;
+    box-shadow: 6px 6px 10px #12372A;
+  }
+  
+  .border-content {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  @media (min-width: 320px) and (max-width: 720px) {
+    h1 {
+      color: red;
+    }
+  }
+  .thisfile {
+    border: 2px solid #ADBC9F;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #436850;
+    font-size: 14px;
+    width: 200px;
+    outline: none;
+    cursor: pointer;
+  }
+  .btn{
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    color: black;
+    margin: 40px;
+    box-shadow: -6px -6px 10px white,
+                6px 6px 10px #12372A;      
+  }
+  .btn:hover{
+    box-shadow: 2px 2px 2px white,
+                -2px -2px 2px #12372A;
+  }
